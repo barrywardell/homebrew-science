@@ -1,7 +1,9 @@
 class Hdf5 < Formula
   homepage "http://www.hdfgroup.org/HDF5"
-  url "http://www.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8.14/src/hdf5-1.8.14.tar.bz2"
-  sha1 "3c48bcb0d5fb21a3aa425ed035c08d8da3d5483a"
+  url "http://www.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8.15-patch1/src/hdf5-1.8.15-patch1.tar.bz2"
+  mirror "http://www.mirrorservice.org/sites/distfiles.macports.org/hdf5/hdf5-1.8.15-patch1.tar.bz2"
+  sha256 "a5afc630c4443547fff15e9637b5b10404adbed4c00206d89517d32d6668fb32"
+  version "1.8.15-patch1"
 
   bottle do
     revision 2
