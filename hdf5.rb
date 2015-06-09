@@ -79,7 +79,7 @@ class Hdf5 < Formula
       #include "H5public.h"
       int main()
       {
-        printf(\"%d.%d.%d\\n\",H5_VERS_MAJOR,H5_VERS_MINOR,H5_VERS_RELEASE);
+        printf(\"%d.%d.%d-%s\\n\",H5_VERS_MAJOR,H5_VERS_MINOR,H5_VERS_RELEASE,H5_VERS_SUBRELEASE);
         return 0;
       }
     EOS
