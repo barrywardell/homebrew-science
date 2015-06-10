@@ -3,6 +3,7 @@ class Insighttoolkit < Formula
   url "https://downloads.sourceforge.net/project/itk/itk/4.7/InsightToolkit-4.7.2.tar.gz"
   sha1 "9f05222b79682a438799ebf90cf6e2db2fe94535"
   head "git://itk.org/ITK.git"
+  revision 1
 
   bottle do
     sha256 "94bee2ef435e83e915fe85d6d8f3add29389798cb39cedd446360f8f7b261e2b" => :yosemite

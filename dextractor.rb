@@ -15,6 +15,7 @@ class Dextractor < Formula
   sha256 "5f45ab8944f857fc30b7a0e762fbdc63d9b61f3303412deee29d7580c53272bc"
 
   head "https://github.com/thegenemyers/DEXTRACTOR.git"
+  revision 1
 
   depends_on "hdf5"
 

@@ -3,6 +3,7 @@ class Paraview < Formula
   url "http://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v4.2&type=source&os=all&downloadFile=ParaView-v4.2.0-source.tar.gz"
   sha1 "a440ba9912549bdd23a949e22add41696715dd32"
   head "git://paraview.org/ParaView.git"
+  revision 1
 
   bottle do
     sha1 "87c7c0288b7be02298e6b329d5257f622fc60409" => :yosemite

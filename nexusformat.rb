@@ -4,6 +4,7 @@ class Nexusformat < Formula
   homepage "http://www.nexusformat.org"
   url "https://github.com/nexusformat/code/archive/4.3.3.tar.gz"
   sha1 "89f1e7ec5706868f9a488a44aeb2305587ab5180"
+  revision 1
 
   option :cxx11
 

@@ -4,6 +4,7 @@ class Trilinos < Formula
   url "https://trilinos.org/oldsite/download/files/trilinos-12.0.1-Source.tar.bz2"
   sha256 "cab674e88c8ca2d2c54176af60030ed28203c0793f3c64c240363dbe7fa46b99"
   head "https://software.sandia.gov/trilinos/repositories/publicTrilinos", :using => :git
+  revision 1
 
   option "with-teko",  "Enable the Teko secondary-stable package"
   option "with-shylu", "Enable the ShyLU experimental package"

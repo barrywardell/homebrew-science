@@ -6,6 +6,7 @@ class Alembic < Formula
   url "https://code.google.com/p/alembic/", :using => :hg,
     :tag => "1_05_04"
   version "1.5.4"
+  revision 1
 
   needs :cxx11
 

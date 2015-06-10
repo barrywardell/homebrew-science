@@ -2,6 +2,7 @@ class Openimageio < Formula
   homepage "http://openimageio.org"
   url "https://github.com/OpenImageIO/oiio/archive/Release-1.5.14.tar.gz"
   sha256 "b9553fe616c94b872b1e17d1a74d450cdcaf1ad512905253e7d02683dfaa9d63"
+  revision 1
 
   head "https://github.com/OpenImageIO/oiio.git"
 

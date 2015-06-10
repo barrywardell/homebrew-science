@@ -8,6 +8,7 @@ class Blasr < Formula
   sha256 "bef789accf2662aed409b31227e029c61582d5dfe6a289043db4c1b27fd7ab12"
 
   head "https://github.com/PacificBiosciences/blasr.git"
+  revision 1
 
   bottle do
     cellar :any

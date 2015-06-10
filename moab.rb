@@ -3,6 +3,7 @@ class Moab < Formula
   url "http://ftp.mcs.anl.gov/pub/fathom/moab-4.8.0.tar.gz"
   sha256 "349e66e06cac38325926eafb01807b9d520bfce73016088d5dd7b973e687467a"
   head "https://bitbucket.org/fathomteam/moab.git"
+  revision 1
 
   bottle do
     sha256 "097016feed8abaee3de749c285bebe43e154939e0dd389d14bea50fc961c08fe" => :yosemite

@@ -5,7 +5,7 @@ class Vigra < Formula
   url 'https://github.com/ukoethe/vigra/releases/download/Version-1-10-0/vigra-1.10.0-src-with-docu.tar.gz'
   sha1 '0a882bc09f5a6ec1f8381ff571020259eb88ee67'
   head 'https://github.com/ukoethe/vigra.git'
-  revision 1
+  revision 2
 
   option :cxx11
   option "without-check", "skip tests"

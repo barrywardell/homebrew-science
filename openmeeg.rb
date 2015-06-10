@@ -4,6 +4,7 @@ class Openmeeg < Formula
   homepage 'http://www-sop.inria.fr/athena/software/OpenMEEG/'
   url 'https://github.com/openmeeg/openmeeg/archive/release-2.1.tar.gz'
   sha1 'c19896bde64e751142c74d15bf99defec518a054'
+  revision 1
 
   head 'https://github.com/openmeeg/openmeeg.git'
 
